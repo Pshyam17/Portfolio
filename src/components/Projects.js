@@ -54,7 +54,7 @@ class Projects extends React.Component {
         desc:
           "A small JS library that helps with clear and succinct data presentation.",
         techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
+        link: "https://github.com/Pshyam17/Portfolio",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
         image: "/assets/portfolio.png"
       }
@@ -62,22 +62,22 @@ class Projects extends React.Component {
     const projects = {
       "STINC": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
+          "An application created for escalating community complaints in a locality.",
+        techStack: "Java, Android Studio, Bootstrap, SQL",
         link: "https://github.com/gazijarin/TDSBHomeworkManagement",
         open: "https://tdsb-app.herokuapp.com/"
       },
       "Fuzzy": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
+          "A self-learning A.I. that learns to predict dementia using the random forest algorithm.",
+        techStack: "R, HTML / CSS",
         link: "https://github.com/gazijarin/adamai",
         open: "https://gazijarin.github.io/AdamAI/"
       },
       "Malware signature detector": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+        techStack: "Python, Node.js (Express.js), React.js, PostgreSQL",
         link:
           "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
       },
