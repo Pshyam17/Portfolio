@@ -20,8 +20,7 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b> Computer science student </b> at
-        Vishveshvaraiah Technological institute. At the same time, I am an intern at 
-         <b> Company </b> in <b>role </b>at{" "}
+        Vishveshvaraiah Technological institute. 
         <a href="https://www.ox.ac.uk/about">link</a>.
       </p>
     );
