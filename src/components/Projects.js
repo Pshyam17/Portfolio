@@ -60,21 +60,21 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "STINC": {
         desc:
           "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
         techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
         link: "https://github.com/gazijarin/TDSBHomeworkManagement",
         open: "https://tdsb-app.herokuapp.com/"
       },
-      "Adam A.I.": {
+      "Fuzzy": {
         desc:
           "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
         techStack: "Javascript, HTML / CSS",
         link: "https://github.com/gazijarin/adamai",
         open: "https://gazijarin.github.io/AdamAI/"
       },
-      "Distributed Logging and Monitoring System": {
+      "Malware signature detector": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
@@ -107,7 +107,7 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ pet projects</span>
+          <span className="section-title">/ projects</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
