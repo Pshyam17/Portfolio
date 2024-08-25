@@ -33,12 +33,12 @@ class About extends React.Component {
     );
 
     const tech_stack = [
-      "Typescript",
-      "Python",
-      "React.js",
       "Java",
-      "Javascript ES6+",
-      "C#"
+      "Python",
+      "R",
+      "C++",
+      "ReactJS",
+      "HTML/CSS"
     ];
 
     return (
