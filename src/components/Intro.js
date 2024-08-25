@@ -28,9 +28,9 @@ class Intro extends React.Component {
         <FractalTree></FractalTree>
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
-            {"hi, "}
-            <span className="intro-name">{"gazi"}</span>
-            {" here."}
+            {"Hi, I'm"}
+            <span className="intro-name">{"Preethi"}</span>
+            
           </span>
         </Typist>
         <FadeInSection>
